@@ -1,16 +1,17 @@
-<!DOCTYPE html>
+<h1>Login Form</h1>
 
-<html>
+<form id="loginForm">
+  <input type="text" id="username" placeholder="Username" />
+  <input type="password" id="password" placeholder="Password" />
 
-<head>
-	<link rel="stylesheet" href="styles.css">
-</head>
+  <label>
+    <input type="checkbox" id="checkbox" />
+    Remember me.
+  </label>
 
-<body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+  <input type="submit" id="submit" value="Submit" />
+</form>
 
-</body>
+<button id="existing" style="display:none;">Login as existing user</button>
 
-</html>
+<script src="./script.js"></script>
